@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-
+<title>About</title>
 
 <style>
 body {
@@ -13,15 +13,28 @@ body {
 
 /* IMAGEM */
 img {
-  width:1100px; /* mesmo tamanho que você gostou */
+  width:1100px;
   margin-top:30px;
 }
 
-/* BOTÃO IGUAL DA HOME */
+/* BOTÃO BACK (esquerda em cima) */
 .btn {
   position: absolute;
   top: 20px;
   left: 20px;
+  padding: 12px 25px;
+  background: black;
+  color: pink;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+/* BOTÃO NEXT (direita embaixo) */
+.btn-next {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
   padding: 12px 25px;
   background: black;
   color: pink;
@@ -35,13 +48,11 @@ img {
 
 <body>
 
-
-
 <img src="2.png">
 
-<br>
-
 <a href="index.html" class="btn">⬅ Back</a>
+
+<a href="titles.html" class="btn-next">Next ➡</a>
 
 </body>
 </html>
