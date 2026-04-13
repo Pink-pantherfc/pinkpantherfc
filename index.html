@@ -25,24 +25,24 @@
       border-radius: 10px;
       font-weight: bold;
 
-      /* ANIMAÇÃO */
-      animation: mexer 2s infinite;
+      /* ANIMAÇÃO PULSAR */
+      animation: pulsar 1.5s infinite;
     }
 
-    /* ANIMAÇÃO */
-    @keyframes mexer {
+    /* PULSAR */
+    @keyframes pulsar {
       0% {
-        transform: translateX(0);
+        transform: scale(1);
       }
       50% {
-        transform: translateX(10px);
+        transform: scale(1.2);
       }
       100% {
-        transform: translateX(0);
+        transform: scale(1);
       }
     }
 
-    /* EFEITO HOVER */
+    /* HOVER */
     .btn:hover {
       transform: scale(1.1);
     }
@@ -63,4 +63,3 @@
 
 </body>
 </html>
-    
